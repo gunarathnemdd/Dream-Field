@@ -1,0 +1,9 @@
+void right(){
+ 
+  digitalWrite(k, HIGH);
+  digitalWrite(k+4,LOW);
+  digitalWrite(k+3, LOW);
+  digitalWrite(k+7,HIGH);
+  delay(50);
+  
+  }
